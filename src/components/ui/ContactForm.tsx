@@ -40,7 +40,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
   };
 
   return (
-    <section className="max-w-xl rounded-3xl bg-[#F5F9FF] p-8 md:p-10">
+    <section className="max-w-xl rounded-3xl bg-[#F5F9FF] dark:bg-gray-800 p-8 md:p-10">
       <h2 className="mb-8  text-darkText">
         {title}
       </h2>

@@ -15,10 +15,11 @@ export function ModeToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="p-0 m-0 text-darkText border-none hover:bg-transparent hover:text-orange focus-within:border-none focus:border-none outline-none focus-visible:outline-none focus:outline-none
-         focus:ring-0 focus-visible:ring-0 rounded-none focus:shadow-none focus-visible:shadow-none dark:bg-transparent dark:text-darkText dark:focus:ring-0 dark:focus-visible:ring-0 dark:focus:shadow-none dark:focus-visible:shadow-none dark:focus:border-none dark:focus:visible:border-none dark:focus:outline-none dark:focus-visible:outline-none">
+        <Button variant="outline" className="p-0 m-0 text-darkText border-none bg-transparent hover:bg-transparent hover:text-orange focus-within:border-none focus:border-none outline-none focus-visible:outline-none focus:outline-none
+         focus:ring-0 focus-visible:ring-0 rounded-none focus:shadow-none focus-visible:shadow-none dark:bg-transparent dark:text-darkText dark:focus:ring-0 dark:focus-visible:ring-0 dark:focus:shadow-none dark:focus-visible:shadow-none dark:focus:border-none dark:focus:visible:border-none dark:focus:outline-none dark:focus-visible:outline-none dark:ring-0">
+
           <Sun className=" rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0 dark:hidden" />
-          <Moon className=" rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100 dark:text-[#22383D] hidden dark:block" />
+          <Moon className=" rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100 dark:text-white hidden dark:block" />
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>

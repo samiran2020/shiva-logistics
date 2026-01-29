@@ -69,7 +69,7 @@ const testimonialContent: CardType[] = [
 export default function Testimonial({ id, }: TestimonialProps) {
   return (
     <section id={id} className="page-section relative px-10 ">
-        <div className="bg-lightGrey rounded-3xl py-40">
+        <div className="bg-lightGrey dark:bg-gray-800 rounded-3xl py-40">
             <FadeInUp>
             <div className="container relative z-10 text-center mb-16">
                 <h2 className="text-darkText mb-4">Here's What Our Happy Clients are Saying About Us</h2>

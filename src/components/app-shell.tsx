@@ -5,7 +5,7 @@ import Footer from "./footer/footer"
 
 const AppLayout = () => {
   return (
-    <div className=" body-inner bg-white dark:bg-black w-full h-full"  >
+    <div className=" body-inner bg-white dark:bg-gray-900 w-full h-full"  >
       <Navigation />
       <Outlet />
       <Footer />

@@ -81,6 +81,10 @@
   }
 }
 
+.dark\:focus-visible\:ring-0:focus-visible:is(.dark *) {
+    box-shadow: none!important;
+}
+
 .menu button:first-child{ padding-right: 0; border-right: 0; }
 .menu button.active{ background-color: transparent;  margin: 0;  color: var(--orange); }
 .logo img{  transition: width 0.3s ease-in-out; }
@@ -143,3 +147,11 @@
 .cta-button:hover span{ background: #22383D;}
 .cta-button.submit-button:hover {background: transparent!important;color: #EC7823!important;}
 .cta-button.submit-button:hover span{ background: transparent!important; color: #EC7823!important;}
+
+.dark .herobanner:after { background-color: rgb(17 24 39);}
+.dark .logo-sec::before{ background: linear-gradient(270deg, rgb(17 24 39) 0%, rgba(255, 255, 255, 0) 100%);}
+.dark .logo-sec::after{background: linear-gradient(90deg, rgb(17 24 39) 0%, rgba(255, 255, 255, 0) 100%);}
+
+.dark .why-us {
+  background-image: url(../src/assets/image/glob-dark-bg.jpg)!important;
+}

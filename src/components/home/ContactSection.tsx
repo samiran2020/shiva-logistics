@@ -52,7 +52,7 @@ export default function ContactSection({ id }: ContactSectionProps) {
                             <div className="info flex flex-col gap-4 mt-11">
                                 <div className="grid grid-cols-12 items-center ">
                                     <div className="col-span-1">
-                                        <span className=" flex flex-col items-center justify-center w-9 h-9 rounded-full bg-darkText text-white">
+                                        <span className=" flex flex-col items-center justify-center w-9 h-9 rounded-full bg-darkText dark:bg-gray-800  text-white">
                                             <MapPin size={16}/>
                                         </span>
                                     </div>
@@ -65,7 +65,7 @@ export default function ContactSection({ id }: ContactSectionProps) {
                                 </div>
                                 <div className="grid grid-cols-12 items-center ">
                                     <div className="col-span-1">
-                                        <span className=" flex flex-col items-center justify-center w-9 h-9 rounded-full bg-darkText text-white">
+                                        <span className=" flex flex-col items-center justify-center w-9 h-9 rounded-full bg-darkText dark:bg-gray-800  text-white">
                                             <Mail size={16}/>
                                         </span>
                                     </div>
@@ -77,7 +77,7 @@ export default function ContactSection({ id }: ContactSectionProps) {
                                 </div>
                                 <div className="grid grid-cols-12 items-center ">
                                     <div className="col-span-1">
-                                        <span className=" flex flex-col items-center justify-center w-9 h-9 rounded-full bg-darkText text-white">
+                                        <span className=" flex flex-col items-center justify-center w-9 h-9 rounded-full bg-darkText dark:bg-gray-800  text-white">
                                             <Phone  size={16}/>
                                         </span>
                                     </div>

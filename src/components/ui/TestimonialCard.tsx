@@ -10,7 +10,7 @@ interface TestimonialCardProps {
 
 export default function TestimonialCard({ title, content, userName, position,userImage }:TestimonialCardProps) {
   return (
-    <div  className="page-section relative  bg-darkText text-center px-5 py-8 rounded-2xl">
+    <div  className="page-section relative  bg-darkText dark:bg-gray-900 text-center px-5 py-8 rounded-2xl">
         <img src={quotationIcon} alt="quotationIcon" className='w-[69px] h-[50px] absolute -top-5 -left-5' />
         <h5 className="text-white text-lg font-medium tracking-wide mb-3">{title}</h5>
         <p className="text-white text-sm font-[300] tracking-wide   leading-6">{content}</p>

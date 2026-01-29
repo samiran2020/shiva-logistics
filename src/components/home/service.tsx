@@ -36,7 +36,7 @@ interface ServiceProps {
 export default function Service({ id }: ServiceProps) {
   return (
     <section id={id} className="page-section relative px-10 mb-10 ">
-        <div className="bg-darkText py-32 pb-0  overflow-clip rounded-3xl">
+        <div className="bg-darkText dark:bg-gray-800 py-32 pb-0  overflow-clip rounded-3xl">
             <div className=" relative h-screen z-20">
                 <FadeInUp>
                 <div className="container relative z-10 text-center">

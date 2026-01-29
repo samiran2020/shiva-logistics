@@ -55,7 +55,7 @@ interface WhychooseUsProps {
 
 export default function WhychooseUs({ id }: WhychooseUsProps) {
   return (
-    <section id={id} className="page-section relative pt-56 pb-44 " style={{ backgroundImage: `url(${backgroundImage})`, backgroundRepeat:'no-repeat', backgroundSize:'contain', backgroundPosition:'top center' }}>
+    <section id={id} className="why-us page-section relative pt-56 pb-44 " style={{ backgroundImage: `url(${backgroundImage})`, backgroundRepeat:'no-repeat', backgroundSize:'contain', backgroundPosition:'top center' }}>
         <div className="container relative z-10 text-center">
           <FadeInUp>
             <h2 className="text-darkText mb-4">Why Choose Us</h2>

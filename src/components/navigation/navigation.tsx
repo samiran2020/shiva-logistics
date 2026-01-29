@@ -25,6 +25,7 @@ import Logo from "@/assets/image/siva-logistic.svg";
 import { HousePlus, Phone, } from "lucide-react";
 import CtaButton from "../ui/CtaButton";
 import { Link } from "react-router-dom";
+import Darklogo from "@/assets/image/fooiter-logo.svg";
 
 const menu = [
   { id: "home", label: "Home" },
@@ -71,8 +72,8 @@ export default function Navigation() {
   }, []);
 
   return (
-    <header className={`menu top-0 z-50 transition-all duration-300 border-t-[6px] border-t-[#EC7823] border-t-solid  bg-white
-        ${isSticky ? " sticky-menu fixed bg-white/70 backdrop-blur-md border border-white/10 w-full py-[10px]" : "relative py-[30px]"}
+    <header className={`menu top-0 z-50 transition-all duration-300 border-t-[6px] border-t-[#EC7823] border-t-solid  bg-white dark:bg-gray-900
+        ${isSticky ? " sticky-menu fixed bg-white/70 dark:bg-gray-900/70 backdrop-blur-md border border-white/10 w-full py-[10px]" : "relative py-[30px]"}
       `}>
       <div className="container  grid grid-cols-12 items-center">
         <nav className="col-span-4 flex items-center">
@@ -88,7 +89,8 @@ export default function Navigation() {
           ))}
         </nav>
         <div className="logo col-span-4 flex justify-center">
-          <img src={Logo} alt="Logo" />
+          <img src={Logo} alt="Logo" className=" dark:hidden"/>
+          <img src={Darklogo} alt="Logo" className=" hidden dark:block"/>
         </div>
         <div className="col-span-4 justify-end flex gap-4 items-center">
           <Link to="tel:+919825802516" className=" flex items-center gap-2 text-darkText font-medium text-base hover:text-orange transition-colors duration-300">

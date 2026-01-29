@@ -38,8 +38,8 @@ const items = [
 
 function Footer() {
     return (
-        <div className="navbar w-full px-10 relative mb-10 overflow-hidden">
-            <div className="bg-darkText rounded-3xl  relative">
+        <div className="navbar w-full px-10 relative pb-10 overflow-hidden">
+            <div className="bg-darkText dark:bg-gray-800  rounded-3xl  relative">
                 <div className='container'>
                     <ScrollToTop/>
                     <div className="grid grid-cols-12 gap-8 pt-[5.5rem] pb-[3.25rem] items-center">
@@ -53,7 +53,7 @@ function Footer() {
                         </div>
                         <div className="col-span-2">
                             <FadeInUp>
-                                <CtaButton link="#contact" title="Contact Us"  className=" subscrib-btn bg-orange text-white" />
+                                <CtaButton link="#contact" title="Contact Us"  className=" subscrib-btn bg-orange text-white dark:border-gray-800 " />
                             </FadeInUp>
                         </div>
                     </div>
@@ -73,6 +73,7 @@ function Footer() {
                                             onClick={() => window.open(link, "_self")}
                                             className=" p-0 flex gap-0 w-auto flex-row flex-wrap h-fit text-left justify-start  bg-transparent text-xs font-[300] border-0
                                              hover:bg-transparent hover:text-orange hover:border-0 focus-visible:border-0 focus-visible:outline-none   focus:border-0 focus:outline-none 
+                                             dark:text-white  hover:dark:text-orange
                                             "
                                             >
                                                 <span className="text-orange">
