@@ -8,35 +8,35 @@ const aboutData = {
       id: 1,
       subtitle:"About Us",
       title: "About Shiva Logistic",
-      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
       backgroundImage:"/src/assets/image/tab-bg.jpg",
     },
     {
       id: 2,
       subtitle:"Lorem Ipsum",
       title: "How to get started",
-      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
       backgroundImage:"/src/assets/image/slider.webp",
     },
     {
       id: 3,
       subtitle:"Lorem Ipsum",
       title: "Ready to book?",
-      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
       backgroundImage:"/src/assets/image/tab-bg.jpg",
     },
     {
       id: 4,
       subtitle:"Lorem Ipsum",
       title: "Become a logistics expert",
-      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
       backgroundImage:"/src/assets/image/slider.webp",
     },
   ],
 };
 
 interface AboutProps {
-  id: number;
+  id: string;
   title: string;
   subtitle: string;
   content: string;

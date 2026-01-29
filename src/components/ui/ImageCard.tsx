@@ -1,6 +1,6 @@
-import { ArrowRight, MoveRight } from "lucide-react";
+import { ArrowRight,} from "lucide-react";
 import { Button } from "./button";
-import arrow from "@/assets/image/icon/Arrow.svg";
+
 
 interface CardType {
   id: number;

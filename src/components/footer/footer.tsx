@@ -4,7 +4,7 @@ import CtaButton from "../ui/CtaButton";
 import ScrollToTop from "../ui/ScrollTop";
 import footerLogo from"@/assets/image/fooiter-logo.svg";
 import { Button } from "../ui/button";
-import { ChevronRight, Clock, Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Twitter, Youtube } from "lucide-react";
+import { ChevronRight, Clock, Facebook, Instagram, Linkedin, Mail,  Phone, Twitter, Youtube } from "lucide-react";
 import FadeInUp from "../ui/FeadInUp";
 
 

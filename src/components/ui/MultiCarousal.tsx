@@ -1,6 +1,7 @@
 import { Carousel, CarouselContent, CarouselItem, } from "@/components/ui/carousel";
-import { CarouselItemData } from "@/page/home";
+
 import Autoplay from "embla-carousel-autoplay";
+import { CarouselItemData } from "../home/LogoSection";
 
 type LogoCarouselProps = {
   items: CarouselItemData[]

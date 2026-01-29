@@ -1,7 +1,6 @@
 import { Carousel, CarouselContent, CarouselItem, } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import TestimonialCard from "../ui/TestimonialCard";
-import defualUserImage from '../../assets/image/defualt-user.jpg';
 import FadeInUp from "../ui/FeadInUp";
 
 interface TestimonialProps {
