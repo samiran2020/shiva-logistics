@@ -37,10 +37,6 @@ const aboutData = {
 
 interface AboutProps {
   id: string;
-  title: string;
-  subtitle: string;
-  content: string;
-  backgroundImage: string;
 }
 
 export default function About({ id }: AboutProps) {

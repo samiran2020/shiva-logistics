@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 export interface ActionCard {
   id: number;
-  title: string;
-  subtitle: string;
-  content: string;
-  backgroundImage: string;
+  title?: string;
+  subtitle?: string;
+  content?: string;
+  backgroundImage?: string;
 }
 
 export interface AboutSectionProps {
