@@ -3,7 +3,7 @@ import { motion, useMotionValue, MotionValue, Transition } from "framer-motion";
 import CtaButton from "./CtaButton";
 import FadeInUp from "./FeadInUp";
 
-import slider1 from'@/assets/image/slider.webp';
+import slider1 from'/images/slider.webp';
 
 type ImageData = {
   src: string;
