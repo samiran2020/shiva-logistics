@@ -89,7 +89,7 @@ export default function Testimonial({ id, }: TestimonialProps) {
             >
                 <CarouselContent>
                     {testimonialContent.map((card) => (
-                        <CarouselItem  className="basis-1/1 md:basis-1/2 lg:basis-1/4 py-8">
+                        <CarouselItem  className="basis-1/1 sm:basis-1/2 md:basis-1/3 2xl:basis-1/4 py-8">
                                 <TestimonialCard title={card.title} content={card.content} userName={card.userName} position={card.position} userImage={card.userImage}/>
                         </CarouselItem>
                     ))}

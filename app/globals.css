@@ -155,3 +155,35 @@
 .dark .why-us {
   background-image: url(../src/assets/image/glob-dark-bg.jpg)!important;
 }
+@media (max-width: 1440px) { 
+  .main-slider-component{
+    height: 650px;
+  }
+  .main-slider-caption{
+    width: 60%;
+  }
+  .imagecard{
+    min-height: 450px;
+    min-width: 380px;
+    max-width: 380px;
+  }
+  .service-bg-graphics{
+    width: 92%;
+  }
+  .cta-section{
+    width: 60%;
+  }
+}
+@media (max-width: 1366px) { 
+  .nav-button{
+    padding: 0px 8px;
+  }
+  
+} 
+
+@media (max-width: 1280px) { 
+  .nav-button{
+    padding: 0px 4px;
+  }
+  
+} 

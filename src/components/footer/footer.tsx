@@ -45,7 +45,7 @@ function Footer() {
                     <div className="grid grid-cols-12 gap-8 pt-[5.5rem] pb-[3.25rem] items-center">
                         <div className="col-span-10">
                             <FadeInUp>
-                                <div className=" flex flex-col gap-2 w-[50%]">
+                                <div className=" cta-section flex flex-col gap-2 w-[50%]">
                                     <h2 className="text-white">Want to have a conversation about our logistics Relocation ?</h2>
                                     <p className="text-white text-sm font-[300]">Shivga Logistics is rapidly emerging as one of India’s leading multi-modal logistics service providers, delivering innovative and integrated solutions designed to optimize both time and cost.</p>
                                 </div>
@@ -58,11 +58,11 @@ function Footer() {
                         </div>
                     </div>
                     <div className="grid grid-cols-12 gap-8 py-16  items-center border  border-white/10 border-r-0 border-l-0">
-                        <div className="col-span-4">
+                        <div className="col-span-3 2xl:col-span-4">
                             <img src={footerLogo} alt="footerLogo" />
                             <p className=" text-white text-sm font-[300] mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
-                        <div className="col-span-8 pl-32">
+                        <div className="col-span-9 2xl:col-span-8 pl-12 2xl:pl-32">
                             <div className="grid grid-cols-12 gap-5">
                                 <div className="quicklink col-span-5">
                                     <h5 className="text-white text-lg font-medium p-0 mb-4">Quick Link</h5>

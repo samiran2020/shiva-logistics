@@ -24,7 +24,7 @@ export default function ScrollToTop() {
   if (!visible) return null;
 
   return (
-    <Button onClick={scrollToTop} className=" fixed bottom-[40rem] right-[20.5rem] z-50 text-orange w-10 h-10 flex items-center justify-center rounded-full bg-transparent border-orange  hover:bg-orange hover:border-orange hover:text-white">
+    <Button onClick={scrollToTop} className=" fixed bottom-[40rem] right-24 2xl:right-[20.5rem] z-50 text-orange w-10 h-10 flex items-center justify-center rounded-full bg-transparent border-orange  hover:bg-orange hover:border-orange hover:text-white">
 
         <MoveUp size={16} />
     </Button>

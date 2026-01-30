@@ -14,9 +14,9 @@ type ImageData = {
 };
 
 const imgs: ImageData[] = [
-  { src: "/src/assets/image/slider.webp", title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
-  { src: "/src/assets/image/slider.webp", title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
-  { src: "/src/assets/image/slider.webp", title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
+  { src: require("/src/assets/image/slider.webp"), title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
+  { src: require("/src/assets/image/slider.webp"), title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
+  { src: require("/src/assets/image/slider.webp"), title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
 
 ];
 
@@ -109,7 +109,7 @@ const Images: React.FC<ImagesProps> = ({ imgIndex }) => {
             scale: imgIndex === idx ? 1 : 0.95,
           }}
           transition={SPRING_OPTIONS}
-          className="aspect-video w-full shrink-0 rounded-[40px]  h-[1000px] rounded-bl-none  rounded-br-none flex items-center justify-start "
+          className="main-slider-component aspect-video w-full shrink-0 rounded-[40px]  h-[1000px] rounded-bl-none  rounded-br-none flex items-center justify-start "
         >
           <Caption title={img.title} paragraph={img.description} link={img.link} buttonTitle={img.buttonTitle} subheading={img.subheading} />
         </motion.div>
@@ -155,7 +155,7 @@ const Caption: React.FC<CaptionProps> = ({ title, paragraph,link,buttonTitle,sub
   return (
     <div className="container relative z-30 ">
       <FadeInUp>
-        <div className=" w-[50%] flex flex-col gap-2">
+        <div className=" main-slider-caption w-[50%] flex flex-col gap-2">
           <h6 className="text-white font-normal text-[1.125rem] leading-9 tracking-wide">{subheading}</h6>
           <h1 className="text-white font-normal text-7xl">{title}</h1>
           <p className="text-white font-normal text-base leading-6 ">{paragraph}</p>

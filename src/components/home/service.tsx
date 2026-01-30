@@ -50,7 +50,7 @@ export default function Service({ id }: ServiceProps) {
                     ))}
                 </HorizontalScrollCarousel>
             </div>
-            <div className=" absolute top-0 left-0 h-full w-[94%] right-0 mx-auto ">
+            <div className="service-bg-graphics absolute top-0 left-0 h-full w-[94%] right-0 mx-auto ">
                 <Squares 
                 speed={0.5}
                 squareSize={40}
