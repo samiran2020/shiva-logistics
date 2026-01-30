@@ -3,7 +3,7 @@ import Autoplay from "embla-carousel-autoplay";
 import TestimonialCard from "../ui/TestimonialCard";
 import FadeInUp from "../ui/FeadInUp";
 
-import defualtuser from'@/assets/image/defualt-user.jpg';
+import defualtuser from'/images/defualt-user.jpg';
 
 interface TestimonialProps {
    id: string;

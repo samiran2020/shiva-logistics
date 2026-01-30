@@ -1,8 +1,8 @@
 import CtaButton from "../ui/CtaButton";
 import FadeInUp from "../ui/FeadInUp";
 import AboutSection from "../ui/ImageAcordian";
-import background1 from'@/assets/image/tab-bg.jpg';
-import background2 from'@/assets/image/slider.webp';
+import background1 from'/images/tab-bg.jpg';
+import background2 from'/images/slider.webp';
 
 const aboutData = {
   actions: [

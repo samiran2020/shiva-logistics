@@ -1,18 +1,21 @@
 import LogoCarousel from '@/components/ui/MultiCarousal';
 import FadeInUp from '../ui/FeadInUp';
+
 export type CarouselItemData = {
   id: number;
   title: string;
   image?: string | undefined;
 }
 
+import clientlogo from'/images/client1.png';
+
 export const carouselData: CarouselItemData[] = [
-  { id: 1, title: "Logistics", image: "/src/assets/image/client1.png" },
-  { id: 2, title: "Warehousing", image: "/src/assets/image/client1.png" },
-  { id: 3, title: "Distribution", image: "/src/assets/image/client1.png" },
-  { id: 4, title: "Supply Chain", image: "/src/assets/image/client1.png" },
-  { id: 5, title: "Transport", image: "/src/assets/image/client1.png" },
-  { id: 6, title: "Transport", image: "/src/assets/image/client1.png" },
+  { id: 1, title: "Logistics", image: clientlogo },
+  { id: 2, title: "Warehousing", image: clientlogo },
+  { id: 3, title: "Distribution", image: clientlogo },
+  { id: 4, title: "Supply Chain", image: clientlogo },
+  { id: 5, title: "Transport", image: clientlogo },
+  { id: 6, title: "Transport", image: clientlogo },
   
 ]
 

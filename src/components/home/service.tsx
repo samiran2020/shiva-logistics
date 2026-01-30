@@ -2,7 +2,7 @@ import Squares from "../Squares";
 import FadeInUp from "../ui/FeadInUp";
 import HorizontalScrollCarousel from "../ui/HorizontalscrollCarousel";
 import ImageCard from "../ui/ImageCard";
-import serviceimage from'@/assets/image/service-image.jpg';
+import serviceimage from'/images/service-image.jpg';
 
 /* ---------------- DATA ---------------- */
 const cards: CardType[] = [
