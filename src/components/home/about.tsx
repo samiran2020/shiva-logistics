@@ -1,6 +1,8 @@
 import CtaButton from "../ui/CtaButton";
 import FadeInUp from "../ui/FeadInUp";
 import AboutSection from "../ui/ImageAcordian";
+import background1 from'@/assets/image/tab-bg.jpg';
+import background2 from'@/assets/image/slider.webp';
 
 const aboutData = {
   actions: [
@@ -9,28 +11,28 @@ const aboutData = {
       subtitle:"About Us",
       title: "About Shiva Logistic",
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      backgroundImage:"/src/assets/image/tab-bg.jpg",
+      backgroundImage:background1 ,
     },
     {
       id: 2,
       subtitle:"Lorem Ipsum",
       title: "How to get started",
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      backgroundImage:"/src/assets/image/slider.webp",
+      backgroundImage:background2 ,
     },
     {
       id: 3,
       subtitle:"Lorem Ipsum",
       title: "Ready to book?",
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      backgroundImage:"/src/assets/image/tab-bg.jpg",
+      backgroundImage:background1 ,
     },
     {
       id: 4,
       subtitle:"Lorem Ipsum",
       title: "Become a logistics expert",
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      backgroundImage:"/src/assets/image/slider.webp",
+      backgroundImage:background2 ,
     },
   ],
 };

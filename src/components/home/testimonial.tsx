@@ -3,6 +3,8 @@ import Autoplay from "embla-carousel-autoplay";
 import TestimonialCard from "../ui/TestimonialCard";
 import FadeInUp from "../ui/FeadInUp";
 
+import defualtuser from'@/assets/image/defualt-user.jpg';
+
 interface TestimonialProps {
    id: string;
 }
@@ -21,7 +23,7 @@ const testimonialContent: CardType[] = [
       content: 'I was very impressed with the professionalism of Shiva Logistics. They are immensely thorough in their work, ensuring the clients are well aware of the progress at each step! Would highly recommend. My Best Wishes.',
       userName: "Bharatji Agarwal",
       position: "VP Commercial - JK Paper",
-      userImage:"/src/assets/image/defualt-user.jpg"
+      userImage:defualtuser,
   },
 
   {
@@ -29,7 +31,7 @@ const testimonialContent: CardType[] = [
       content: 'I was very impressed with the professionalism of Shiva Logistics. They are immensely thorough in their work, ensuring the clients are well aware of the progress at each step! Would highly recommend. My Best Wishes.',
       userName: "Bharatji Agarwal",
       position: "VP Commercial - JK Paper",
-      userImage:"/src/assets/image/defualt-user.jpg"
+      userImage:defualtuser,
   },
 
   {
@@ -37,7 +39,7 @@ const testimonialContent: CardType[] = [
       content: 'I was very impressed with the professionalism of Shiva Logistics. They are immensely thorough in their work, ensuring the clients are well aware of the progress at each step! Would highly recommend. My Best Wishes.',
       userName: "Bharatji Agarwal",
       position: "VP Commercial - JK Paper",
-      userImage:"/src/assets/image/defualt-user.jpg"
+      userImage:defualtuser,
   },
 
   {
@@ -45,7 +47,7 @@ const testimonialContent: CardType[] = [
       content: 'I was very impressed with the professionalism of Shiva Logistics. They are immensely thorough in their work, ensuring the clients are well aware of the progress at each step! Would highly recommend. My Best Wishes.',
       userName: "Bharatji Agarwal",
       position: "VP Commercial - JK Paper",
-      userImage:"/src/assets/image/defualt-user.jpg"
+      userImage:defualtuser,
   },
 
   {
@@ -53,7 +55,7 @@ const testimonialContent: CardType[] = [
       content: 'I was very impressed with the professionalism of Shiva Logistics. They are immensely thorough in their work, ensuring the clients are well aware of the progress at each step! Would highly recommend. My Best Wishes.',
       userName: "Bharatji Agarwal",
       position: "VP Commercial - JK Paper",
-      userImage:"/src/assets/image/defualt-user.jpg"
+      userImage:defualtuser,
   },
 
   {
@@ -61,7 +63,7 @@ const testimonialContent: CardType[] = [
       content: 'I was very impressed with the professionalism of Shiva Logistics. They are immensely thorough in their work, ensuring the clients are well aware of the progress at each step! Would highly recommend. My Best Wishes.',
       userName: "Bharatji Agarwal",
       position: "VP Commercial - JK Paper",
-      userImage:"/src/assets/image/defualt-user.jpg"
+      userImage:defualtuser,
   },
 
 ];

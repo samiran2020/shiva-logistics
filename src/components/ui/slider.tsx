@@ -3,6 +3,7 @@ import { motion, useMotionValue, MotionValue, Transition } from "framer-motion";
 import CtaButton from "./CtaButton";
 import FadeInUp from "./FeadInUp";
 
+import slider1 from'@/assets/image/slider.webp';
 
 type ImageData = {
   src: string;
@@ -14,9 +15,9 @@ type ImageData = {
 };
 
 const imgs: ImageData[] = [
-  { src: require("/src/assets/image/slider.webp"), title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
-  { src: require("/src/assets/image/slider.webp"), title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
-  { src: require("/src/assets/image/slider.webp"), title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
+  { src: slider1, title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
+  { src: slider1, title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
+  { src: slider1, title: "Shiva Logistics, India's fastest growing logistics company", description: "Get Rapid Transportation Services Through Our Low Cost, High Quality and Reliable Services, Irrespective of size & weight all across India", link:"/contact", buttonTitle:"Enquiry Now", subheading:"India's most efficient surface transport company" },
 
 ];
 
