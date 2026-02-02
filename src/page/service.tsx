@@ -198,7 +198,7 @@ function Service() {
                         {items.map((item) => (
                           <FadeInUp>
                             <AccordionItem key={item.value} value={item.value} className="border-0 mb-4">
-                              <AccordionTrigger className="bg-white hover:no-underline text-2xl font-normal text-darkText hover:text-orange hover:border-none border-none focus:outline-none focus-visible:outline-none ">{item.trigger}</AccordionTrigger>
+                              <AccordionTrigger className="bg-white dark:text-darkText hover:no-underline text-2xl font-normal text-darkText hover:text-orange hover:border-none border-none focus:outline-none focus-visible:outline-none ">{item.trigger}</AccordionTrigger>
                               <AccordionContent className=" text-left py-4 font-[300] text-darkText">{item.content}</AccordionContent>
                             </AccordionItem>
                           </FadeInUp>
@@ -213,7 +213,7 @@ function Service() {
                           onSubmit={(data) => {
                               console.log("Form Data:", data);
                           }}
-                          className="bg-[#e9edf7]"
+                          className="bg-[#e9edf7] dark:bg-gray-900"
                       />
                     </div>
                   </div>
