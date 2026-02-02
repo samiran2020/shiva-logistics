@@ -6,12 +6,12 @@ import serviceimage from'/images/service-image.jpg';
 
 /* ---------------- DATA ---------------- */
 const cards: CardType[] = [
-  { id: 1, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'service',buttonTitle:'Find Out' },
-  { id: 2, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'service',buttonTitle:'Find Out', commingSoon:"Coming Soon", showSection: true, },
-  { id: 3, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'service',buttonTitle:'Find Out', commingSoon:"Coming Soon", showSection: true,},
-  { id: 4, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'service',buttonTitle:'Find Out',commingSoon:"Coming Soon", showSection: true, },
-  { id: 5, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'service',buttonTitle:'Find Out',commingSoon:"Coming Soon" , showSection: true,},
-  { id: 6, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'service',buttonTitle:'Find Out',commingSoon:"Coming Soon", showSection: true,},
+  { id: 1, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'/service',buttonTitle:'Find Out' },
+  { id: 2, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'/service',buttonTitle:'Find Out', commingSoon:"Coming Soon", showSection: true, },
+  { id: 3, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'/service',buttonTitle:'Find Out', commingSoon:"Coming Soon", showSection: true,},
+  { id: 4, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'/service',buttonTitle:'Find Out',commingSoon:"Coming Soon", showSection: true, },
+  { id: 5, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'/service',buttonTitle:'Find Out',commingSoon:"Coming Soon" , showSection: true,},
+  { id: 6, title: "Ground and Rail Freight Solutions", url: serviceimage, content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ", link:'/service',buttonTitle:'Find Out',commingSoon:"Coming Soon", showSection: true,},
 
 ];
 
