@@ -181,7 +181,7 @@ function Service() {
           </div>
         </section>
         <section  className="page-section relative px-10 mb-10 ">
-            <div className="bg-lightGrey py-32   overflow-clip rounded-3xl ">
+            <div className="bg-lightGrey dark:bg-gray-800 py-32   overflow-clip rounded-3xl ">
                 <div className="container text-center">
                   <FadeInUp>
                     <h1 className="text-darkText">We help you provide free quotes for following services</h1>
