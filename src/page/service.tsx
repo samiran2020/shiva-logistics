@@ -61,19 +61,19 @@ const items = [
       "We can move a wide range of items, including household goods, office equipment, vehicles, and more. If you have specific items you’re concerned about, please let us know during the consultation.",
   },
   {
-    value: "item-2",
+    value: "item-3",
     trigger: "Do you provide packing materials?",
     content:
       "Yes, we offer packing materials and can assist with packing if needed. Our expert packing teams use high-quality materials to ensure the safety of your belongings during the move.",
   },
   {
-    value: "item-2",
+    value: "item-4",
     trigger: "How can I track the status of my move?",
     content:
       "We provide tracking options for your move. Our customer support team will give you access to a tracking system, and you can also contact us at any time for updates on the status of your move.",
   },
   {
-    value: "item-2",
+    value: "item-5",
     trigger: "Do you offer insurance for my belongings?",
     content:
       "Yes, we offer goods insurance to provide additional protection for your valuable items during the move. Our team will discuss the insurance options and coverage details with you during the consultation.",
