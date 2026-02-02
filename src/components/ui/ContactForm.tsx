@@ -16,6 +16,7 @@ export interface ContactFormProps {
   fields: ContactField[];
   submitText: string;
   onSubmit: (data: Record<string, string>) => void;
+  className?: string
 }
 
 
@@ -24,6 +25,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
   fields,
   submitText,
   onSubmit,
+  className = ""
 }) => {
   const [formData, setFormData] = useState<Record<string, string>>({});
 
@@ -40,7 +42,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
   };
 
   return (
-    <section className="max-w-xl rounded-3xl bg-[#F5F9FF] dark:bg-gray-800 p-8 md:p-10">
+    <section className={`max-w-xl rounded-3xl bg-[#F5F9FF] dark:bg-gray-800 p-8 md:p-10 ${className} `}>
       <h2 className="mb-8  text-darkText">
         {title}
       </h2>
