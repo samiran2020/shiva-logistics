@@ -113,11 +113,11 @@ function Service() {
         </section>
         <section  className="relative px-10 mb-10 py-20">
           <div className="container">
-            <div className="grid grid-cols-12">
+            <div className="grid grid-cols-12 gap-5">
                 <div className="relative  flex items-center   col-span-4 min-h-[50vh]">
                   <div className="sticky top-32 ">
                     <FadeInUp>
-                      <div className="service-image w-[400px] h-[350px] rounded-3xl overflow-hidden">
+                      <div className="service-image w-full xl:w-[400px] h-[400px] xl:h-[350px] rounded-3xl overflow-hidden">
                           <img src={serviceImag} alt="service-img" className="w-full h-full object-cover object-center" />
                       </div>
                     </FadeInUp>
@@ -198,7 +198,7 @@ function Service() {
                         {items.map((item) => (
                           <FadeInUp>
                             <AccordionItem key={item.value} value={item.value} className="border-0 mb-4">
-                              <AccordionTrigger className="bg-white dark:text-darkText hover:no-underline text-2xl font-normal text-darkText hover:text-orange hover:border-none border-none focus:outline-none focus-visible:outline-none ">{item.trigger}</AccordionTrigger>
+                              <AccordionTrigger className="bg-white  hover:no-underline text-2xl font-normal text-darkText dark:text-[#22383d] hover:text-orange hover:border-none border-none focus:outline-none focus-visible:outline-none ">{item.trigger}</AccordionTrigger>
                               <AccordionContent className=" text-left py-4 font-[300] text-darkText">{item.content}</AccordionContent>
                             </AccordionItem>
                           </FadeInUp>
